@@ -7,4 +7,4 @@ def init_app(app: Flask):
     db.init_app(app)
     app.db = db
 
-    from app.models.vaccine_model import Vaccine
+    from app.models.leads_model import Leads

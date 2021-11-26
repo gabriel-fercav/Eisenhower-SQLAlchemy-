@@ -1,5 +1,5 @@
 from flask import Flask
-from app.routes.vaccine_blueprint import bp as bp_vaccine
+from app.routes.leads_blueprint import bp as bp_leads
 
 def init_app(app: Flask):
-    app.register_blueprint(bp_vaccine)
+    app.register_blueprint(bp_leads)
